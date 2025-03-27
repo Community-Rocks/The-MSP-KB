@@ -1,0 +1,104 @@
+[
+  {
+    "name": "r/msp",
+    "description": "The largest online MSP-focused community on Reddit. Discussion includes pricing, vendor relationships, service delivery, and technical topics.",
+    "platform": "Reddit",
+    "link": "https://www.reddit.com/r/msp/"
+  },
+  {
+    "name": "MSPGeek",
+    "description": "A Discord community originally for LabTech, now a major hub for RMM/PSA tool discussion, automation, and industry advice.",
+    "platform": "Discord",
+    "link": "https://discord.gg/mspgeek"
+  },
+  {
+    "name": "Spiceworks Community",
+    "description": "A general IT forum with active MSP users. Known for vendor interactions and troubleshooting discussions.",
+    "platform": "Web Forum",
+    "link": "https://community.spiceworks.com/"
+  },
+  {
+    "name": "MSPs’r’us",
+    "description": "A fast-paced, technical community for MSPs, originally spun off from r/msp. Heavy on automation and scripting.",
+    "platform": "Discord",
+    "link": "https://discord.gg/0123abc456def"
+  },
+  {
+    "name": "CyberDrain Community",
+    "description": "Created by Kelvin Tegelaar, this community focuses on PowerShell, automation, security, and the CyberDrain Improved Partner Portal (CIPP).",
+    "platform": "Discord",
+    "link": "https://discord.gg/cyberdrain"
+  },
+  {
+    "name": "The Tech Degenerates",
+    "description": "MSP-centric Discord with a focus on community culture, events, industry memes, and informal collaboration.",
+    "platform": "Discord",
+    "link": "https://discord.gg/techdegenerates"
+  },
+  {
+    "name": "All Things MSP",
+    "description": "A Facebook group for MSP professionals to share experiences, advice, and industry content.",
+    "platform": "Facebook",
+    "link": "https://www.facebook.com/groups/allthingsmsp/"
+  },
+  {
+    "name": "Everything MSP",
+    "description": "A Facebook group discussing tech, business growth, and trends specific to MSPs.",
+    "platform": "Facebook",
+    "link": "https://www.facebook.com/groups/everythingmsp/"
+  },
+  {
+    "name": "ConnectWise Boss",
+    "description": "A Facebook group for MSPs using ConnectWise tools to share tips, best practices, and support.",
+    "platform": "Facebook",
+    "link": "https://www.facebook.com/groups/CWBoss/"
+  },
+  {
+    "name": "IT & MSP Business Owners",
+    "description": "Facebook group supporting MSP and IT business owners with growth strategies and discussions.",
+    "platform": "Facebook",
+    "link": "https://www.facebook.com/groups/ITandMSPBusinessOwners/"
+  },
+  {
+    "name": "IT Managed Services (LinkedIn)",
+    "description": "A LinkedIn group for MSP professionals to network and share resources and industry insight.",
+    "platform": "LinkedIn",
+    "link": "https://www.linkedin.com/groups/38615/"
+  },
+  {
+    "name": "CompTIA Connect",
+    "description": "A LinkedIn group by CompTIA for discussions and resources in the IT and MSP space.",
+    "platform": "LinkedIn",
+    "link": "https://www.linkedin.com/groups/83900/"
+  },
+  {
+    "name": "MSP 501",
+    "description": "LinkedIn community discussing Channel Futures MSP 501 rankings, trends, and growth strategies.",
+    "platform": "LinkedIn",
+    "link": "https://www.linkedin.com/groups/2729912/"
+  },
+  {
+    "name": "The Tech Tribe",
+    "description": "Paid MSP community with templates, coaching, forums, and vendor discounts.",
+    "platform": "Community Platform",
+    "link": "https://thetechtribe.com/"
+  },
+  {
+    "name": "IT Nation",
+    "description": "ConnectWise’s official community with forums, training, events, and peer groups for partners.",
+    "platform": "Community Platform",
+    "link": "https://www.connectwise.com/theitnation"
+  },
+  {
+    "name": "ASCII Group",
+    "description": "Member-based community providing events, peer networking, and vendor access for MSPs.",
+    "platform": "Community Platform",
+    "link": "https://www.ascii.com/"
+  },
+  {
+    "name": "Reddit r/sysadmin",
+    "description": "While not MSP-specific, many relevant discussions and overlapping topics appear here.",
+    "platform": "Reddit",
+    "link": "https://www.reddit.com/r/sysadmin/"
+  }
+]
