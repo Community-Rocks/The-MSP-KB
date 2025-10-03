@@ -34,7 +34,7 @@ AI can be “confidently wrong” and propagate errors. Scripts or config change
 * Sandbox-test all scripts and enforce peer review.
 * Position AI as augmentation, not replacement.
 
-**Key terms:** _hallucination_
+**Key terms:** _hallucination_, _skill erosion_, _over-reliance_.
 
 ***
 

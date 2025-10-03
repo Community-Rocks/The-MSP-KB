@@ -1,6 +1,6 @@
 ---
 description: >-
-  ow AI tools process, store, and protect client data. Covers residency risks,
+  How AI tools process, store, and protect client data. Covers residency risks,
   training restrictions, anonymization, tenant isolation, and contract
   requirements.
 ---
