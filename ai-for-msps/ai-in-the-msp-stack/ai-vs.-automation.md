@@ -1,13 +1,56 @@
 # AI vs. Automation
 
-Automation executes predefined rules or scripts. AI adapts outputs based on patterns in data, but is probabilistic, not deterministic. Confusing the two leads to false expectations.
+Understand the technical difference between deterministic automation and probabilistic AI, with decision frameworks for MSP workflows.
 
-* **Automation example:** An RMM script that restarts a failed service on all endpoints.
-* **AI example:** A triage assistant that groups tickets by likely root cause based on historical notes.
+Automation executes predefined rules or scripts. AI adapts outputs based on patterns in data, but is probabilistic, not deterministic. Understanding this distinction prevents false expectations and helps choose the right tool for each workflow.
 
-### **Guardrails**
+### **Technical Difference**
 
-* Use automation for predictable, repeatable tasks.
-* Use AI for judgment calls (summaries, predictions), but always with human review.
+| Characteristic   | Automation                   | AI                                  |
+| ---------------- | ---------------------------- | ----------------------------------- |
+| **Process**      | Follows predefined rules     | Learns patterns from data           |
+| **Output**       | Same result every time       | Varies based on input patterns      |
+| **Failure Mode** | Breaks predictably           | "Confidently wrong" answers         |
+| **Best For**     | Repetitive, rule-based tasks | Pattern recognition, judgment calls |
 
-**Key terms**: _deterministic automation_, _probabilistic AI_, _RMM_, _ticket triage_.
+### **MSP Workflow Examples**
+
+**Automation in Action:**
+
+- RMM script restarts failed services across 500 endpoints
+- PSA creates tickets from monitoring alerts using set rules
+- Backup verification runs same checks nightly
+
+**AI in Action:**
+
+- Ticket triage groups similar issues based on description patterns
+- Security tools flag unusual login patterns (not specific rules)
+- Documentation search suggests KB articles based on ticket content
+
+### **Decision Framework**
+
+**Use automation when:**
+
+- Process has clear, consistent rules
+- Same input should always produce same output
+- Failure impact is predictable and recoverable
+
+**Use AI when:**
+
+- Pattern recognition improves outcomes
+- Human judgment would normally be required
+- You can verify outputs before acting
+
+### **Common Mistakes**
+
+**Treating AI like automation:** Expecting consistent outputs leads to over-reliance
+**Treating automation like AI:** Assuming scripts can handle edge cases they weren't designed for
+
+### **Implementation Checklist**
+
+- [ ] Classify each workflow: rule-based or pattern-based?
+- [ ] Define success criteria and failure recovery procedures
+- [ ] Train staff on when to trust outputs vs verify manually
+- [ ] Set up monitoring for both false positives and missed cases
+
+**Key terms**: _deterministic automation_, _probabilistic AI_, _pattern recognition_, _human-in-the-loop_.
