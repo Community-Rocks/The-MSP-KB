@@ -50,6 +50,19 @@
   * [Peer Groups for MSPs Benefits and Potential Risks](msp-relationships/peer-groups-and-accountability-groups/peer-groups-for-msps-benefits-and-potential-risks.md)
   * [Accountability Groups: Fostering Growth and Success for MSPs](msp-relationships/peer-groups-and-accountability-groups/accountability-groups-fostering-growth-and-success-for-msps.md)
 
+## AI for MSPs
+
+* [AI in the MSP Stack](ai-for-msps/ai-in-the-msp-stack/README.md)
+  * [AI vs. Automation](ai-for-msps/ai-in-the-msp-stack/ai-vs.-automation.md)
+  * [Where It Shows Up](ai-for-msps/ai-in-the-msp-stack/where-it-shows-up.md)
+  * [What It Cant Do Yet](ai-for-msps/ai-in-the-msp-stack/what-it-cant-do-yet.md)
+  * [Where We're Going](ai-for-msps/ai-in-the-msp-stack/where-were-going.md)
+* [AI Security](ai-for-msps/ai-security/README.md)
+  * [Risks & Guardrails for AI in MSP Environments](ai-for-msps/ai-security/risks-and-guardrails-for-ai-in-msp-environments.md)
+  * [Data Handling & Privacy](ai-for-msps/ai-security/data-handling-and-privacy.md)
+  * [Operational Safeguards & Oversight](ai-for-msps/ai-security/operational-safeguards-and-oversight.md)
+  * [AI Governance & Acceptable Use Policies](ai-for-msps/ai-security/ai-governance-and-acceptable-use-policies.md)
+
 ## 🧰 Resources
 
 * [Communities](resources/communities/README.md)
