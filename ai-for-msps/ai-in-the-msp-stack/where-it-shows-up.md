@@ -1,13 +1,18 @@
 ---
 description: >-
-  Specific AI tools and features available in PSA/RMM platforms, with costs, capabilities, and vendor comparison for MSP decision-makers.
+  Specific AI tools and features available in PSA/RMM platforms, with costs,
+  capabilities, and vendor comparison for MSP decision-makers.
 ---
 
 # Where It Shows Up
 
+### Introduction
+
 AI features appear across PSA, RMM, and specialized tools serving MSPs. This guide identifies specific offerings, costs, and capabilities to help you evaluate what's available today.
 
-### **MSP AI Platform Comparison**
+### **Example MSP AI Platform Comparison**
+
+_\*needs sources added_
 
 | Platform                 | AI Features                                                                                       | Cost Model                      | ROI Metrics                                           | Data Processing                                  |
 | ------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
@@ -16,22 +21,29 @@ AI features appear across PSA, RMM, and specialized tools serving MSPs. This gui
 | **Autotask PSA**         | Automated categorization, ticket summaries, communication polish                                  | 30-50% faster resolution        | 40% fewer reassignments, 15-30% more tickets per tech | Least privilege access, explicit DPA terms       |
 | **Syncro**               | Ticket categorization, summarization, response generation                                         | Pay-per-technician              | Limited scope compared to agentic AI                  | Vet privacy policies carefully                   |
 
-### **Specialized MSP AI Tools**
+#### Specialized MSP AI Tools
 
-**Workflow Integration:**
+* **Workflow integration**: Mizo AI (HaloPSA, Hudu triage + KB search), zofiQ (AI automation layer), Neo Agent/Cooper Copilot
+* **Voice/call integration**: DialPad (transcription → ticket), Nextiva (real-time call notes)
+* **Shadow AI detection**: Riscosity, Augmentt, Auvik SaaS Management
 
-- **Mizo AI:** Connects to HaloPSA, Hudu for intelligent triage and KB search
-- **Neo Agent/Cooper Copilot:** Third-party agents for Autotask integration
-- **zofiQ:** AI automation layer across multiple PSA/RMM platforms
+{% hint style="info" %}
+#### Why “Agentic AI” Feels Different
 
-**Voice/Call Integration:**
+Traditional automation executes one script at a time. “Agentic AI” chains multiple probabilistic steps, often using a large language model. Example:
 
-- **DialPad:** Call transcription to ticket creation with automatic logging
-- **Nextiva:** Real-time transcription, auto-generated call notes
+1. Interpret a ticket description.
+2. Suggest a diagnostic script.
+3. Summarize results into a KB-style note.
+
+Each step is probabilistic. This means agentic AI can save time but also compound errors if no human-in-the-loop exists.
+{% endhint %}
 
 ### **Current ROI Reality**
 
 MSPs report measurable benefits across core metrics:
+
+_\*(reddit sources, need citation)_
 
 | Metric Category          | Improvement Range               | Best-in-Class Results      |
 | ------------------------ | ------------------------------- | -------------------------- |
@@ -45,63 +57,56 @@ MSPs report measurable benefits across core metrics:
 
 **General AI Assistants:**
 
-- ChatGPT, Claude: Used internally for scripting help
-- Microsoft Copilot: Approved due to no-training policy
-- Risk: Lack MSP-specific context, generic responses
+* ChatGPT, Claude: Used internally for scripting help
+* Microsoft Copilot: Approved due to no-training policy
+* Risk: Lack MSP-specific context, generic responses
 
 **PSA-Native Features:**
 
-- Built into existing workflows
-- Access to client-specific data and history
-- Bi-directional sync with ticket systems
+* Built into existing workflows
+* Access to client-specific data and history
+* Bi-directional sync with ticket systems
 
 **Shadow AI Detection:**
 
-- **Riscosity:** AI Data Firewall for unauthorized usage detection
-- **Augmentt:** SaaS management with AI app discovery
-- **Auvik SaaS Management:** Shadow IT detection across client environments
-- etc.
+* **Riscosity:** AI Data Firewall for unauthorized usage detection
+* **Augmentt:** SaaS management with AI app discovery
+* **Auvik SaaS Management:** Shadow IT detection across client environments
+* etc.
+
+***
+
+### Common Implementation Mistakes
+
+#### **Strategic Errors**
+
+**Expecting AI to solve non-existent processes**\
+e.g.: deploying AI ticket triage when ticket categories are inconsistent. Garbage in, garbage out.
+
+**Lack of measurable objectives or success criteria**\
+e.g.: rolling out AI summaries without tracking average resolution time or escalation rates.
+
+**Choosing generic tools without MSP context**\
+e.g.: using ChatGPT directly for ticket notes instead of a PSA-integrated assistant. Results look polished but lack system hooks.
+
+#### **Technical Errors**
+
+**Insufficient data quality before AI implementation**\
+e.g.: alert fatigue from noisy monitoring data means AI just replicates the noise faster.
+
+**Poor integration causing duplicate data entry**\
+e.g.: AI summary doesn’t sync both ways, forcing manual copy-paste between PSA and RMM.
+
+**Missing human verification workflows**\
+e.g.: allowing AI scripts to run without engineer review, leading to “confidently wrong” fixes.
+
+***
 
 ### **Evaluation Framework**
 
-Before enabling any AI feature, assess:
+Ask before enabling any AI feature:
 
-**Data Boundaries:**
-
-- [ ] Explicit no-training guarantees in DPA
-- [ ] Data residency compliance (GDPR, CCPA)
-- [ ] Sub-processor disclosure and audit rights
-
-**Integration Depth:**
-
-- [ ] Native PSA/RMM integration (not just API)
-- [ ] Bi-directional data sync capability
-- [ ] Custom field mapping support
-
-**Cost Structure:**
-
-- [ ] Transparent per-technician vs usage-based pricing
-- [ ] ROI calculation based on time savings
-- [ ] Total cost of ownership including training
-
-**Failure Recovery:**
-
-- [ ] Rollback procedures for AI-generated errors
-- [ ] Human oversight checkpoints defined
-- [ ] Monitoring for drift and accuracy degradation
-
-### **Common Implementation Mistakes**
-
-**Strategic Errors:**
-
-- Expecting AI to solve non-existent processes
-- Lack of measurable objectives or success criteria
-- Choosing generic tools without MSP context
-
-**Technical Errors:**
-
-- Insufficient data quality before AI implementation
-- Poor integration causing duplicate data entry
-- Missing human verification workflows
-
-**Key terms**: _agentic AI_, _PSA-native integration_, _shadow AI detection_, _no-train mode_.
+* **Data boundaries**: Does the DPA explicitly state “no training” on client data?
+* **Integration depth**: Is it native to PSA/RMM or just API glue?
+* **Cost model**: Is pricing per-tech, per-usage, or hidden in bundles?
+* **Auditability**: Is AI decision-making logged for review?
