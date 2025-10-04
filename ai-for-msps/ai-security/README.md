@@ -18,7 +18,7 @@ MSPs adopting AI must treat it as a new class of SaaS with unique risks. This se
    Covers how AI tools process, store, and transmit data; residency and training risks; anonymization, tenant isolation, and contractual safeguards.
 3. [**Operational Safeguards & Oversight**](operational-safeguards-and-oversight.md)\
    Details practical controls: human-in-the-loop enforcement, sandbox testing, incident response, logging, and AI-native security layers.
-4. [**AI Governance & Acceptable Use Policies**](ai-governance-and-acceptable-use-policies.md)\
+4. [**AI Governance & Acceptable Use Policies**](ai-governance-and-acceptable-use-policies/)\
    Guidance on writing internal and client-facing policies, managing shadow AI, defining augmentation vs automation, and training users.
 
 ### **Bottom Line**

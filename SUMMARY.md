@@ -54,14 +54,17 @@
 
 * [AI in the MSP Stack](ai-for-msps/ai-in-the-msp-stack/README.md)
   * [AI vs. Automation](ai-for-msps/ai-in-the-msp-stack/ai-vs.-automation.md)
-  * [Where It Shows Up](ai-for-msps/ai-in-the-msp-stack/where-it-shows-up.md)
+  * [Where It Shows Up](ai-for-msps/ai-in-the-msp-stack/where-it-shows-up/README.md)
+    * [Implementation & ROI](ai-for-msps/ai-in-the-msp-stack/where-it-shows-up/implementation-and-roi.md)
   * [What It Cant Do Yet](ai-for-msps/ai-in-the-msp-stack/what-it-cant-do-yet.md)
-  * [Where We're Going](ai-for-msps/ai-in-the-msp-stack/where-were-going.md)
+  * [Where We're Going](ai-for-msps/ai-in-the-msp-stack/where-were-going/README.md)
+    * [Positioning & Preparation](ai-for-msps/ai-in-the-msp-stack/where-were-going/positioning-and-preparation.md)
 * [AI Security](ai-for-msps/ai-security/README.md)
   * [Risks & Guardrails for AI in MSP Environments](ai-for-msps/ai-security/risks-and-guardrails-for-ai-in-msp-environments.md)
   * [Data Handling & Privacy](ai-for-msps/ai-security/data-handling-and-privacy.md)
   * [Operational Safeguards & Oversight](ai-for-msps/ai-security/operational-safeguards-and-oversight.md)
-  * [AI Governance & Acceptable Use Policies](ai-for-msps/ai-security/ai-governance-and-acceptable-use-policies.md)
+  * [Governance & Acceptable Use](ai-for-msps/ai-security/ai-governance-and-acceptable-use-policies/README.md)
+    * [Training, Detection & Enforcement](ai-for-msps/ai-security/ai-governance-and-acceptable-use-policies/training-detection-and-enforcement.md)
 
 ## 🧰 Resources
 
