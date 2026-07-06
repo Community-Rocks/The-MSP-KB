@@ -1,3 +1,8 @@
+---
+description: >-
+  Blogs, books, podcasts, and webinars to help MSPs grow the business side of their practice.
+---
+
 # Business Resources
 
 Online business resources for MSPs, such as blogs, books, webinars, and podcasts, offer invaluable insights and tools to help Managed Service Providers grow and thrive in a competitive industry. These resources cover a wide range of topics, catering to both technical and business-focused MSPs.
@@ -8,3 +13,12 @@ Webinars and podcasts offer opportunities for MSPs to gain knowledge from indust
 
 By leveraging these online business resources, MSPs can continuously refine their strategies, services, and processes, ensuring their success in the ever-changing landscape of managed services.
 
+### In this section
+
+{% content-ref url="podcasts-and-webinars.md" %}
+[Podcasts & Webinars](podcasts-and-webinars.md)
+{% endcontent-ref %}
+
+{% content-ref url="blogs-and-books.md" %}
+[Blogs & Books](blogs-and-books.md)
+{% endcontent-ref %}

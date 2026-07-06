@@ -1,3 +1,8 @@
+---
+description: >-
+  Turning transactional vendor relationships into strategic partnerships: co-selling, MDFs, vendor-specific programs, and channel best practices.
+---
+
 # Managing Strategic Relationships
 
 While many vendor relationships in the MSP industry are transactional, focused primarily on upselling, strategic partnerships can be highly beneficial for both parties. In a strategic partnership, MSPs and vendors work closely together, aligning their goals and resources to create mutual value. Here are some thoughts to consider and address when forming and managing strategic vendor relationships:
@@ -51,3 +56,21 @@ To fully realize the potential of strategic vendor partnerships, MSPs must activ
 </details>
 
 By carefully selecting the right strategic partners, leveraging co-selling opportunities and MDFs, establishing clear contracts and expectations, and actively managing and nurturing vendor relationships, MSPs can build strong, mutually beneficial partnerships that drive business growth and create lasting value.
+
+### In this section
+
+{% content-ref url="a-guide-to-co-selling-and-mdf-strategies.md" %}
+[A Guide to Co-selling and MDF Strategies](a-guide-to-co-selling-and-mdf-strategies.md)
+{% endcontent-ref %}
+
+{% content-ref url="requesting-mdfs-from-vendors-best-practices.md" %}
+[Requesting MDFs from Vendors: Best Practices](requesting-mdfs-from-vendors-best-practices.md)
+{% endcontent-ref %}
+
+{% content-ref url="exploring-vendor-specific-programs-for-msps.md" %}
+[Exploring Vendor-Specific Programs for MSPs](exploring-vendor-specific-programs-for-msps.md)
+{% endcontent-ref %}
+
+{% content-ref url="best-practices-for-vendor-channel-programs.md" %}
+[Best Practices for Vendor Channel programs](best-practices-for-vendor-channel-programs.md)
+{% endcontent-ref %}
