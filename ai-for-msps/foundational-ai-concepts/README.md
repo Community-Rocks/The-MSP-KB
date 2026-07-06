@@ -42,21 +42,6 @@ Attention ──▶ Transformer ──┬──▶ BERT (bidirectional, fine-tun
 
 The [Attention Mechanism](attention-mechanism.md) is the engine; the [Transformer](transformer.md) is the machine built around it. From that same machine, two families branched: **BERT-style** models that read text bidirectionally and are _fine-tuned_ per task, and **GPT-style** [large language models](large-language-models.md) that generate text left-to-right and learn tasks _in-context_. As these models grew general enough to underpin everything, the research community named the category [foundation models](foundation-models.md) — and warned about its risks. [RLHF](rlhf-and-alignment.md) was the technique that turned a raw text-predictor into a helpful assistant.
 
-### About the `[[bracket]]` links
-
-Related concepts on each page are written as `[[Entity Name]]` wiki-style links to signal that these pages form a small **knowledge graph**. Each bracketed name maps to a file in this folder:
-
-| `[[Bracket]]`                     | File                             |
-| --------------------------------- | -------------------------------- |
-| `[[Attention Mechanism]]`         | `attention-mechanism.md`         |
-| `[[Transformer Architecture]]`    | `transformer.md`                 |
-| `[[BERT]]`                        | `bert.md`                        |
-| `[[Pretraining and Fine-Tuning]]` | `pretraining-and-fine-tuning.md` |
-| `[[Large Language Models]]`       | `large-language-models.md`       |
-| `[[In-Context Learning]]`         | `in-context-learning.md`         |
-| `[[Foundation Models]]`           | `foundation-models.md`           |
-| `[[RLHF and Alignment]]`          | `rlhf-and-alignment.md`          |
-
 ### Where the papers disagree
 
 These papers are a lineage, but they are not a consensus. The most useful tensions to understand:

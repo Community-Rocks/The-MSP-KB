@@ -9,11 +9,11 @@ description: >-
 
 ### Summary
 
-**In-context learning** is the ability of a [[Large Language Models|large language model]] to perform a new task purely from instructions or examples placed in its prompt — with **no gradient updates and no retraining**. Named and demonstrated in the 2020 GPT-3 paper, it comes in three flavors: **zero-shot** (just an instruction), **one-shot** (one worked example), and **few-shot** (a handful of examples). It is the reason you can "teach" ChatGPT a format or a classification rule just by showing it a couple of samples in your message. In-context learning is also the practical foundation of **prompt engineering**.
+**In-context learning** is the ability of a [large language model](large-language-models.md) to perform a new task purely from instructions or examples placed in its prompt — with **no gradient updates and no retraining**. Named and demonstrated in the 2020 GPT-3 paper, it comes in three flavors: **zero-shot** (just an instruction), **one-shot** (one worked example), and **few-shot** (a handful of examples). It is the reason you can "teach" ChatGPT a format or a classification rule just by showing it a couple of samples in your message. In-context learning is also the practical foundation of **prompt engineering**.
 
 ### In plain terms
 
-Before GPT-3, adapting a model to a task meant **fine-tuning** — collecting thousands of labeled examples and retraining a copy of the model (the [[BERT]] / [[Pretraining and Fine-Tuning]] approach). GPT-3 showed a different path: describe the task in plain language, optionally give a few examples, and the model just does it.
+Before GPT-3, adapting a model to a task meant **fine-tuning** — collecting thousands of labeled examples and retraining a copy of the model (the [BERT](bert.md) / [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md) approach). GPT-3 showed a different path: describe the task in plain language, optionally give a few examples, and the model just does it.
 
 * **Zero-shot:** *"Classify this ticket as billing, technical, or sales: …"* — instruction only.
 * **One-shot:** the instruction plus a single solved example.
@@ -30,13 +30,13 @@ Nothing about the model changes — the "learning" happens entirely within the s
 
 ### Related concepts
 
-[[Large Language Models]] · [[Pretraining and Fine-Tuning]] · [[Transformer Architecture]] · [[RLHF and Alignment]]
+[Large Language Models](large-language-models.md) · [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md) · [Transformer Architecture](transformer.md) · [RLHF and Alignment](rlhf-and-alignment.md)
 
 **In the MSP KB:** [Data Handling & Privacy](../ai-security/data-handling-and-privacy.md) · [AI vs. Automation](../ai-in-the-msp-stack/ai-vs.-automation.md)
 
 ### Contradictions & debates
 
-* **In-context learning vs. fine-tuning.** This is the head-to-head with the [[BERT]] lineage. GPT-3 explicitly lists the downsides of fine-tuning — it needs task-specific datasets of thousands to tens of thousands of examples, and models can exploit spurious correlations in that data — and offers in-context learning as an alternative that needs neither. BERT's paradigm assumes the opposite: that fine-tuning per task is *the* way to reach state-of-the-art quality. In practice both survive; teams fine-tune when they have data and need consistency, and prompt when they need flexibility and speed.
+* **In-context learning vs. fine-tuning.** This is the head-to-head with the [BERT](bert.md) lineage. GPT-3 explicitly lists the downsides of fine-tuning — it needs task-specific datasets of thousands to tens of thousands of examples, and models can exploit spurious correlations in that data — and offers in-context learning as an alternative that needs neither. BERT's paradigm assumes the opposite: that fine-tuning per task is *the* way to reach state-of-the-art quality. In practice both survive; teams fine-tune when they have data and need consistency, and prompt when they need flexibility and speed.
 * **Is it really "learning"?** The GPT-3 paper is careful with the term, and later researchers debate whether the model is genuinely *learning* the task or merely *retrieving and recombining* patterns already absorbed during pretraining. For MSP purposes the practical takeaway is the same: outputs are pattern-driven and must be verified.
 
 ### Source paper

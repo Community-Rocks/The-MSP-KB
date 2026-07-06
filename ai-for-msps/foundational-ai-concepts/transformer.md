@@ -9,7 +9,7 @@ description: >-
 
 ### Summary
 
-The **Transformer** is the neural-network design introduced in the 2017 paper *Attention Is All You Need*. It builds an entire model out of the [[Attention Mechanism]] and simple feed-forward layers, discarding the step-by-step recurrence that earlier language models relied on. Because it processes all words in parallel, it can be trained on enormous datasets efficiently — which is what made today's [[Large Language Models]] possible. The "GPT" in ChatGPT stands for **Generative Pre-trained Transformer**, and Microsoft Copilot, [[BERT]], and nearly every current AI feature in the MSP stack are Transformers under the hood.
+The **Transformer** is the neural-network design introduced in the 2017 paper *Attention Is All You Need*. It builds an entire model out of the [Attention Mechanism](attention-mechanism.md) and simple feed-forward layers, discarding the step-by-step recurrence that earlier language models relied on. Because it processes all words in parallel, it can be trained on enormous datasets efficiently — which is what made today's [Large Language Models](large-language-models.md) possible. The "GPT" in ChatGPT stands for **Generative Pre-trained Transformer**, and Microsoft Copilot, [BERT](bert.md), and nearly every current AI feature in the MSP stack are Transformers under the hood.
 
 ### In plain terms
 
@@ -28,18 +28,18 @@ Later models often keep only one half: [BERT](bert.md) is **encoder-only** (buil
 
 * **It is the thing behind "the AI."** When a PSA/RMM vendor, a documentation tool, or a security product advertises AI, it is almost certainly a Transformer. Knowing the one architecture demystifies the whole category.
 * **It explains the cost and speed trade-offs.** Transformers are expensive to run because attention compares everything to everything. That cost is why AI features carry per-seat or per-token pricing, and why large inputs are slower and pricier — relevant when you model [implementation and ROI](../ai-in-the-msp-stack/where-it-shows-up/implementation-and-roi.md).
-* **It explains why the same core tech shows up everywhere.** A single architecture powering search, chat, code, and security tooling is exactly the *homogenization* the [[Foundation Models]] page describes — a convenience that also concentrates risk.
+* **It explains why the same core tech shows up everywhere.** A single architecture powering search, chat, code, and security tooling is exactly the *homogenization* the [Foundation Models](foundation-models.md) page describes — a convenience that also concentrates risk.
 
 ### Related concepts
 
-[[Attention Mechanism]] · [[BERT]] · [[Large Language Models]] · [[Foundation Models]] · [[Pretraining and Fine-Tuning]]
+[Attention Mechanism](attention-mechanism.md) · [BERT](bert.md) · [Large Language Models](large-language-models.md) · [Foundation Models](foundation-models.md) · [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md)
 
 **In the MSP KB:** [AI vs. Automation](../ai-in-the-msp-stack/ai-vs.-automation.md) · [AI in the MSP Stack](../ai-in-the-msp-stack/)
 
 ### Contradictions & debates
 
 * The Transformer paper's core claim — that **recurrence is unnecessary** — was a direct challenge to the prevailing RNN/LSTM approach of its time. History sided with the Transformer; none of the other papers in this section dispute it.
-* A genuine fork appears *downstream* of the Transformer, not within it: the [[BERT]] lineage and the [[Large Language Models]] lineage take the same architecture in incompatible directions — bidirectional-and-fine-tuned versus left-to-right-and-prompted. See those pages for the disagreement.
+* A genuine fork appears *downstream* of the Transformer, not within it: the [BERT](bert.md) lineage and the [Large Language Models](large-language-models.md) lineage take the same architecture in incompatible directions — bidirectional-and-fine-tuned versus left-to-right-and-prompted. See those pages for the disagreement.
 
 ### Source paper
 

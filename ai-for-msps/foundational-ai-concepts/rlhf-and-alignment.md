@@ -9,7 +9,7 @@ description: >-
 
 ### Summary
 
-**Alignment** is the work of getting an AI model to actually do what a user *intends* — helpfully, honestly, and harmlessly — rather than just predicting plausible next words. **RLHF** (Reinforcement Learning from Human Feedback) is the technique that made this practical. The 2022 InstructGPT paper (*Training language models to follow instructions with human feedback*) showed that fine-tuning a [[Large Language Models|large language model]] on human preferences produces far more useful outputs than scale alone. Its striking result: human raters preferred the outputs of a **1.3-billion-parameter aligned model over the 175-billion-parameter GPT-3** — a model over 100× larger. RLHF is the step that turned raw LLMs into the assistants (ChatGPT and its peers) now embedded across the MSP stack.
+**Alignment** is the work of getting an AI model to actually do what a user *intends* — helpfully, honestly, and harmlessly — rather than just predicting plausible next words. **RLHF** (Reinforcement Learning from Human Feedback) is the technique that made this practical. The 2022 InstructGPT paper (*Training language models to follow instructions with human feedback*) showed that fine-tuning a [large language model](large-language-models.md) on human preferences produces far more useful outputs than scale alone. Its striking result: human raters preferred the outputs of a **1.3-billion-parameter aligned model over the 175-billion-parameter GPT-3** — a model over 100× larger. RLHF is the step that turned raw LLMs into the assistants (ChatGPT and its peers) now embedded across the MSP stack.
 
 ### In plain terms
 
@@ -31,13 +31,13 @@ The alignment target is often summarized as **helpful, honest, and harmless**.
 
 ### Related concepts
 
-[[Large Language Models]] · [[Pretraining and Fine-Tuning]] · [[Foundation Models]] · [[In-Context Learning]]
+[Large Language Models](large-language-models.md) · [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md) · [Foundation Models](foundation-models.md) · [In-Context Learning](in-context-learning.md)
 
 **In the MSP KB:** [What It Can't Do Yet](../ai-in-the-msp-stack/what-it-cant-do-yet.md) · [Governance & Acceptable Use](../ai-security/ai-governance-and-acceptable-use-policies/) · [Risks & Guardrails](../ai-security/risks-and-guardrails-for-ai-in-msp-environments.md)
 
 ### Contradictions & debates
 
-* **Alignment vs. scale — a direct rebuttal of the GPT-3 story.** The [[Large Language Models|GPT-3]] paper's implicit message is that bigger is better. InstructGPT's opening line is almost the opposite: *"Making language models bigger does not inherently make them better at following a user's intent."* The 1.3B-beats-175B result is a quantified counterexample to naive scaling. The reconciliation: scale creates raw capability; alignment directs it. Both are needed, but they are not the same axis.
+* **Alignment vs. scale — a direct rebuttal of the GPT-3 story.** The [GPT-3](large-language-models.md) paper's implicit message is that bigger is better. InstructGPT's opening line is almost the opposite: *"Making language models bigger does not inherently make them better at following a user's intent."* The 1.3B-beats-175B result is a quantified counterexample to naive scaling. The reconciliation: scale creates raw capability; alignment directs it. Both are needed, but they are not the same axis.
 * **The "alignment tax."** Optimizing for human preferences can slightly degrade performance on some standard NLP benchmarks — a trade-off known as the alignment tax. The InstructGPT authors reduced it with the PPO-ptx variant (mixing pretraining back in), so regressions were minimal, but the tension between "aligned to humans" and "maximally capable on benchmarks" is real. This complicates any assumption that improvements are purely additive.
 * **Helpful vs. honest vs. harmless can conflict.** The three alignment goals sometimes pull against each other (a maximally *helpful* answer may not be the most *harmless*). The paper acknowledges the model still makes simple mistakes — alignment is a direction, not a solved problem.
 
