@@ -37,6 +37,8 @@ Automation executes predefined rules or scripts. AI adapts outputs based on patt
 #### _Why AI Outputs Vary_
 
 Modern AI systems (e.g., GPT, Copilot) use _Transformers_—models built entirely on “attention” rather than fixed sequences. Instead of following a strict rule, they weight different parts of input data to predict what comes next. That’s why two similar tickets can produce slightly different AI triage outputs: the system is making probabilistic judgments, not running a script.
+
+For the research behind these terms, see [**Foundational AI Concepts**](../foundational-ai-concepts/): [Attention Mechanism](../foundational-ai-concepts/attention-mechanism.md), [Transformer Architecture](../foundational-ai-concepts/transformer.md), and [Large Language Models](../foundational-ai-concepts/large-language-models.md).
 {% endhint %}
 
 ### **Decision Framework**
