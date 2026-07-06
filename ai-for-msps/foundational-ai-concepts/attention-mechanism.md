@@ -9,7 +9,7 @@ description: >-
 
 ### Summary
 
-**Attention** is the technique that lets an AI model, when processing one word, look back at every other word in the input and decide how much each one matters. Introduced as the sole building block of the \[\[Transformer Architecture]] in the 2017 paper _Attention Is All You Need_, it replaced the older approach of reading text strictly one word at a time. Attention is the reason a model can connect "it" in a sentence back to the noun it refers to twenty words earlier — and, ultimately, the reason today's AI assistants can hold context across a long ticket or document.
+**Attention** is the technique that lets an AI model, when processing one word, look back at every other word in the input and decide how much each one matters. Introduced as the sole building block of the [Transformer Architecture](transformer.md) in the 2017 paper _Attention Is All You Need_, it replaced the older approach of reading text strictly one word at a time. Attention is the reason a model can connect "it" in a sentence back to the noun it refers to twenty words earlier — and, ultimately, the reason today's AI assistants can hold context across a long ticket or document.
 
 ### In plain terms
 
@@ -33,7 +33,7 @@ Crucially, attention looks at all words **in parallel** rather than in sequence.
 
 ### Related concepts
 
-\[\[Transformer Architecture]] · \[\[Large Language Models]] · \[\[BERT]] · \[\[In-Context Learning]]
+[Transformer Architecture](transformer.md) · [Large Language Models](large-language-models.md) · [BERT](bert.md) · [In-Context Learning](in-context-learning.md)
 
 **In the MSP KB:** [AI vs. Automation](../ai-in-the-msp-stack/ai-vs.-automation.md) · [What It Can't Do Yet](../ai-in-the-msp-stack/what-it-cant-do-yet.md)
 

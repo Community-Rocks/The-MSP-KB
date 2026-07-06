@@ -9,11 +9,11 @@ description: >-
 
 ### Summary
 
-**BERT** (Bidirectional Encoder Representations from Transformers) is a 2018 model from Google that learns language by reading text in **both directions at once** — considering the words before *and* after a given word — rather than strictly left to right. It popularized the two-step recipe of [[Pretraining and Fine-Tuning]]: train one general model on massive unlabeled text, then adapt small copies of it to specific tasks. BERT dominated language-*understanding* benchmarks and still powers a great deal of behind-the-scenes AI — search relevance, classification, intent detection — even though the more visible chat assistants come from the rival GPT lineage of [[Large Language Models]].
+**BERT** (Bidirectional Encoder Representations from Transformers) is a 2018 model from Google that learns language by reading text in **both directions at once** — considering the words before *and* after a given word — rather than strictly left to right. It popularized the two-step recipe of [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md): train one general model on massive unlabeled text, then adapt small copies of it to specific tasks. BERT dominated language-*understanding* benchmarks and still powers a great deal of behind-the-scenes AI — search relevance, classification, intent detection — even though the more visible chat assistants come from the rival GPT lineage of [Large Language Models](large-language-models.md).
 
 ### In plain terms
 
-BERT is an **encoder-only** [[Transformer Architecture]]: it is built to *read and represent* text, not to generate it. Its training used two clever tricks:
+BERT is an **encoder-only** [Transformer Architecture](transformer.md): it is built to *read and represent* text, not to generate it. Its training used two clever tricks:
 
 * **Masked Language Modeling (MLM).** During training, random words are hidden and the model must guess them from the surrounding context on *both* sides. Fill-in-the-blank forces genuine two-directional understanding — this is BERT's signature idea.
 * **Next Sentence Prediction (NSP).** The model is shown two sentences and learns to judge whether the second naturally follows the first — teaching it relationships between sentences.
@@ -28,14 +28,14 @@ The paper released two sizes: **BERT-Base** (~110 million parameters) and **BERT
 
 ### Related concepts
 
-[[Transformer Architecture]] · [[Attention Mechanism]] · [[Pretraining and Fine-Tuning]] · [[Large Language Models]] · [[Foundation Models]]
+[Transformer Architecture](transformer.md) · [Attention Mechanism](attention-mechanism.md) · [Pretraining and Fine-Tuning](pretraining-and-fine-tuning.md) · [Large Language Models](large-language-models.md) · [Foundation Models](foundation-models.md)
 
 **In the MSP KB:** [Data Handling & Privacy](../ai-security/data-handling-and-privacy.md) · [Where It Shows Up](../ai-in-the-msp-stack/where-it-shows-up/)
 
 ### Contradictions & debates
 
-* **Bidirectional (BERT) vs. one-directional (GPT).** BERT's central argument is that reading text left-to-right *only* is a real limitation, and that bidirectional context is needed for strong understanding — a point the paper makes explicitly against earlier GPT-style models. The [[Large Language Models]] lineage never adopted bidirectionality and still reached strong, sometimes state-of-the-art results, showing the limitation was surmountable by scale and generation-first design. Both approaches remain in use for different jobs; the "contradiction" resolved into a **division of labor**, not a winner.
-* **Fine-tuning vs. in-context learning.** BERT assumes you *fine-tune* a separate model per task. Two years later, [GPT-3](large-language-models.md) argued that fine-tuning has real downsides (it needs labeled data and can latch onto spurious patterns) and demonstrated learning tasks from a few prompt examples with no weight changes — see [[In-Context Learning]]. This is the sharpest methodological disagreement among the five papers.
+* **Bidirectional (BERT) vs. one-directional (GPT).** BERT's central argument is that reading text left-to-right *only* is a real limitation, and that bidirectional context is needed for strong understanding — a point the paper makes explicitly against earlier GPT-style models. The [Large Language Models](large-language-models.md) lineage never adopted bidirectionality and still reached strong, sometimes state-of-the-art results, showing the limitation was surmountable by scale and generation-first design. Both approaches remain in use for different jobs; the "contradiction" resolved into a **division of labor**, not a winner.
+* **Fine-tuning vs. in-context learning.** BERT assumes you *fine-tune* a separate model per task. Two years later, [GPT-3](large-language-models.md) argued that fine-tuning has real downsides (it needs labeled data and can latch onto spurious patterns) and demonstrated learning tasks from a few prompt examples with no weight changes — see [In-Context Learning](in-context-learning.md). This is the sharpest methodological disagreement among the five papers.
 
 ### Source paper
 
