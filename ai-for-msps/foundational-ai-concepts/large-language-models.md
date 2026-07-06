@@ -34,7 +34,7 @@ Importantly, the paper is candid about limits: GPT-3 sometimes only *approaches*
 
 ### Contradictions & debates
 
-* **Scale vs. alignment — the sharpest disagreement in this section.** GPT-3's thesis is that scaling up is the path to capability. The [[RLHF and Alignment]] paper (InstructGPT, 2022) directly complicates it: human raters preferred the outputs of a **1.3B-parameter aligned model over the 175B GPT-3** — a model 100× larger. Raw scale makes a model *capable*; it does not make it *helpful, honest, or harmless*. Both can be true, but the "bigger is automatically better" reading of GPT-3 does not survive InstructGPT.
+* **Scale vs. alignment — the sharpest disagreement in this section.** GPT-3's thesis is that scaling up is the path to capability. The [[RLHF and Alignment]] paper (InstructGPT, 2022) directly complicates it: human raters preferred the outputs of a **1.3B-parameter aligned model over the 175B GPT-3** — a model over 100× larger. Raw scale makes a model *capable*; it does not make it *helpful, honest, or harmless*. Both can be true, but the "bigger is automatically better" reading of GPT-3 does not survive InstructGPT.
 * **Generation-first (GPT) vs. understanding-first (BERT).** GPT-3 keeps the left-to-right design that [[BERT]] argued was a limitation — and still reaches strong, sometimes state-of-the-art results. The two lineages settled into different jobs rather than one displacing the other.
 * **Capability vs. risk framing.** GPT-3 showcases broad capability; the [[Foundation Models]] paper (published a year later) reframes that same generality as concentrated societal risk. Same phenomenon, opposite emphasis.
 

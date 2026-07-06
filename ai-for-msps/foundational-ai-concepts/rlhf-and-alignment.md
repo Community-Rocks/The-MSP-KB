@@ -9,7 +9,7 @@ description: >-
 
 ### Summary
 
-**Alignment** is the work of getting an AI model to actually do what a user *intends* — helpfully, honestly, and harmlessly — rather than just predicting plausible next words. **RLHF** (Reinforcement Learning from Human Feedback) is the technique that made this practical. The 2022 InstructGPT paper (*Training language models to follow instructions with human feedback*) showed that fine-tuning a [[Large Language Models|large language model]] on human preferences produces far more useful outputs than scale alone. Its striking result: human raters preferred the outputs of a **1.3-billion-parameter aligned model over the 175-billion-parameter GPT-3** — a model 100× larger. RLHF is the step that turned raw LLMs into the assistants (ChatGPT and its peers) now embedded across the MSP stack.
+**Alignment** is the work of getting an AI model to actually do what a user *intends* — helpfully, honestly, and harmlessly — rather than just predicting plausible next words. **RLHF** (Reinforcement Learning from Human Feedback) is the technique that made this practical. The 2022 InstructGPT paper (*Training language models to follow instructions with human feedback*) showed that fine-tuning a [[Large Language Models|large language model]] on human preferences produces far more useful outputs than scale alone. Its striking result: human raters preferred the outputs of a **1.3-billion-parameter aligned model over the 175-billion-parameter GPT-3** — a model over 100× larger. RLHF is the step that turned raw LLMs into the assistants (ChatGPT and its peers) now embedded across the MSP stack.
 
 ### In plain terms
 

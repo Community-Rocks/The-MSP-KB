@@ -64,7 +64,7 @@ These papers are a lineage, but they are not a consensus. The most useful tensio
 
 * **Bidirectional vs. one-directional.** [BERT](bert.md) argues that reading text in both directions at once is necessary for strong language understanding and explicitly frames left-to-right-only models as limited. GPT-3 keeps the left-to-right approach and still reaches state-of-the-art results — suggesting the limitation BERT identified was not fatal.
 * **Fine-tuning vs. in-context learning.** BERT's whole paradigm is *fine-tune a copy of the model for each task*. [GPT-3](large-language-models.md) pushes back, listing the downsides of fine-tuning and showing a model can often learn a task from a few examples in the prompt with **no weight updates at all**.
-* **Scale vs. alignment.** GPT-3's headline is *bigger is better*. [InstructGPT](rlhf-and-alignment.md) directly complicates this: human raters preferred a **1.3B-parameter aligned model over the 100×-larger 175B GPT-3**, showing that *how* you train can beat *how big* you build.
+* **Scale vs. alignment.** GPT-3's headline is *bigger is better*. [InstructGPT](rlhf-and-alignment.md) directly complicates this: human raters preferred a **1.3B-parameter aligned model over the 175B GPT-3 — a model over 100× larger**, showing that *how* you train can beat *how big* you build.
 * **Capability optimism vs. risk caution.** GPT-3 celebrates broad capability; the [foundation models](foundation-models.md) paper reframes that same generality as a concentration of risk — one flawed base model propagating its flaws to everything built on top.
 
 Each entity page carries a **Contradictions & debates** section with the specifics.
