@@ -123,3 +123,17 @@ Businesses serving MSPs enhance community spaces by providing insights, solving 
 ## Conclusion
 
 MSP communities offer unmatched opportunities for growth, innovation, and collaboration. By contributing authentically, staying consistent, and fostering respect, MSPs and businesses alike can thrive in these spaces. Community engagement is more than a strategy—it's a commitment to mutual success that drives the entire industry forward.
+
+### In this section
+
+{% content-ref url="forums-and-chat-communities.md" %}
+[Online Communities](forums-and-chat-communities.md)
+{% endcontent-ref %}
+
+{% content-ref url="peer-groups.md" %}
+[Peer Groups](peer-groups.md)
+{% endcontent-ref %}
+
+{% content-ref url="social-media-communities.md" %}
+[Social Media communities](social-media-communities.md)
+{% endcontent-ref %}
