@@ -1,16 +1,19 @@
+---
+description: >-
+  Technical blogs and community-sourced references for MSP technicians —
+  scripts, tooling comparisons, and hands-on resources.
+---
+
 # Blogs & Books
 
-#### The RMM comparison sheet
+### The RMM comparison sheet
 
-This online excel sheet contains a compare of all current RMM products. The sheet is completely community sourced and based on data by actual users.
+This online Excel sheet contains a comparison of all current RMM products. The sheet is completely community sourced and based on data by actual users.
 
-**Link:** [http://rmm.msp.zone](http://rmm.msp.zone/)
+{% embed url="http://rmm.msp.zone" %}
 
-#### CyberDrain
+### CyberDrain
 
-CyberDrain is a techblog that contains PowerShell scripts, resources for MSPS, and announcements important to technichians at MSPs. CyberDrain also organizes several events such as the CyberDrain CTF.
+CyberDrain is a tech blog that contains PowerShell scripts, resources for MSPs, and announcements important to technicians at MSPs. CyberDrain also organizes several events such as the CyberDrain CTF.
 
-**Link:** [https://cyberdrain.com](https://cyberdrain.com)
-
-
-
+{% embed url="https://cyberdrain.com" %}
