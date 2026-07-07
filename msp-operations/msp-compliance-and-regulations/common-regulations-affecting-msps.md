@@ -1,6 +1,25 @@
+---
+description: >-
+  A quick-reference guide to the regulations MSPs most often encounter — GDPR,
+  ISO 27001, NIS2, SOC 2, HIPAA, and Cyber Essentials — and who each applies to.
+---
+
 # Common Regulations Affecting MSPs
 
 As MSPs serve clients across various industries and regions, they must navigate a complex landscape of regulations and standards. This section will provide an overview of some common regulations that MSPs often encounter, such as GDPR, HIPAA, and PCI-DSS, and the implications of these regulations for their operations.
+
+**At a glance:**
+
+| Regulation | Scope | Applies to |
+| ---------- | ----- | ---------- |
+| **GDPR** | EU data-protection law | Any MSP handling EU citizens' data |
+| **ISO 27001** | International information-security standard (ISMS) | MSPs adopting a formal security framework |
+| **NIS2** | EU directive (upcoming) | All EU-based MSPs |
+| **SOC 2** | US audit of security controls | Service organizations demonstrating security maturity |
+| **HIPAA** | US healthcare privacy law | MSPs handling Protected Health Information (PHI) |
+| **Cyber Essentials** | UK government-backed certification scheme | MSPs, especially those with UK government contracts |
+
+Each is covered in more detail below.
 
 ### GDPR Compliance
 
