@@ -1,51 +1,43 @@
+---
+description: >-
+  A curated list of podcasts and webinars covering the business side of running
+  an MSP — growth, sales, operations, and industry news.
+---
+
 # Podcasts & Webinars
 
-#### MSP Podcasts
+## MSP Podcasts
 
-#### The MSP Voice
+### The MSP Voice
 
-\[blurb]
+{% embed url="https://mspvoice.com/" %}
 
-**Link:** [https://mspvoice.com/](https://mspvoice.com/)
+### The IT Provider Network
 
-#### The IT Provider Network
+{% embed url="https://www.itprovidernetwork.com/" %}
 
-\[blurb]
+### Frankly MSP Podcast
 
-**Link:** [https://www.itprovidernetwork.com/](https://www.itprovidernetwork.com/)
+{% embed url="https://www.franklymsp.com/" %}
 
-#### Frankly MSP Podcast
+### MSP Growth Hacks
 
-\[blurb]
+{% embed url="https://mspgh.com/" %}
 
-**Link:** [https://www.franklymsp.com/](https://www.franklymsp.com/)
+### The Continuum Podcast Network
 
-#### MSP Growth Hacks
+{% embed url="https://www.continuum.net/podcast" %}
 
-\[blurb]
+### The Confessions of an IT Business Owner
 
-**Link:** [https://mspgh.com/](https://mspgh.com/)
+{% embed url="https://connectbooster.com/podcast/" %}
 
-#### The Continuum Podcast Network
+### TubbTalk – The Podcast for IT Consultants
 
-\[blurb]
+{% embed url="https://www.tubblog.co.uk/tubbtalk-podcast/" %}
 
-**Link:** [https://www.continuum.net/podcast](https://www.continuum.net/podcast)
+### The Business of Tech
 
-#### The Confessions of an IT Business Owner
+In an industry that always changes, those who deliver technology services need to focus on the information that matters to them. The Business of Tech podcast focuses on the news you need to know. Covering both the story and asking "why do we care" to the way services are created and delivered, channel veteran Dave Sobel brings you up to speed and gives you resources to go deeper. With insights and analysis, this five-minute podcast focuses on the knowledge you need to be effective, profitable, and relevant.
 
-\[blurb]
-
-**Link:** [https://connectbooster.com/podcast/](https://connectbooster.com/podcast/)
-
-#### TubbTalk - The Podcast for IT Consultants
-
-\[blurb]
-
-**Link:** [https://www.tubblog.co.uk/tubbtalk-podcast/](https://www.tubblog.co.uk/tubbtalk-podcast/)
-
-#### The Business of Tech
-
-In an industry that always changes, those who deliver technology services need to focus on the information that matters to them. The Business of Tech podcast focuses on the news you need to know. Covering both the story and asking "why do we care" to the way services are created and delivered, channel veteran Dave Sobel brings you up to speed and gives you resources to go deeper. With insights and analysis, this five-minute podcast focuses on the knowledge you need to be effective, profitable, and relevant
-
-**Link:** [https://www.businessof.tech/](https://www.businessof.tech/)
+{% embed url="https://www.businessof.tech/" %}

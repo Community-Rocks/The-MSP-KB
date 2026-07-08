@@ -1,15 +1,21 @@
+---
+description: >-
+  Blogs and books focused on the business of running an MSP — operational
+  maturity, growth, and the channel.
+---
+
 # Blogs & Books
 
-#### Operational Maturity by Auvik
+### Operational Maturity by Auvik
 
-This blog decribes operational maturity levels and how to target growth
+This blog describes operational maturity levels and how to target growth.
 
-**Link:** [https://www.auvik.com/franklyit/blog/msp-operational-maturity/](https://www.auvik.com/franklyit/blog/msp-operational-maturity/)
+{% embed url="https://www.auvik.com/franklyit/blog/msp-operational-maturity/" %}
 
-#### Jay McBain
+### Jay McBain
 
-\[blurb]
+Channel-focused research and analysis. Referenced posts:
 
-**Link:** [https://www.forrester.com/blogs/top-143-social-media-groups-for-msps-vars-and-tech-channel-professionals](https://www.forrester.com/blogs/top-143-social-media-groups-for-msps-vars-and-tech-channel-professionals)
+{% embed url="https://www.forrester.com/blogs/top-143-social-media-groups-for-msps-vars-and-tech-channel-professionals" %}
 
-**Link:** [https://www.forrester.com/blogs/the-100-best-channel-podcasts-of-2021/](https://www.forrester.com/blogs/the-100-best-channel-podcasts-of-2021)
+{% embed url="https://www.forrester.com/blogs/the-100-best-channel-podcasts-of-2021/" %}
