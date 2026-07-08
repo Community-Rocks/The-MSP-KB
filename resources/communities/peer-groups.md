@@ -1,6 +1,23 @@
+---
+description: >-
+  A guide to the major MSP peer groups — The Tech Tribe, ASCII, IT Nation
+  Evolve, SMBiT, MSP-Ignite, and The Network Group — and how to choose one.
+---
+
 # Peer Groups
 
 Peer groups foster collaboration, knowledge-sharing, and problem-solving among MSP leaders and professionals. These communities provide a mix of resources, events, and networking opportunities tailored to enhance MSP operations and growth.
+
+**At a glance:**
+
+| Peer group | Region | Best for | Link |
+| ---------- | ------ | -------- | ---- |
+| **The Tech Tribe** | Global | MSP owners & senior staff wanting resources and perks | [Visit](https://thetechtribe.com/) |
+| **ASCII Group** | North America | MSPs & VARs focused on marketing and networking | [Visit](https://www.ascii.com/) |
+| **IT Nation Evolve** | US / global | MSP executives & owners seeking peer collaboration | [Visit](https://www.connectwise.com/theitnation/evolve) |
+| **SMBiT Professionals** | Australia & NZ | MSPs serving SMB clients | [Visit](https://www.smbitpro.org/) |
+| **MSP-Ignite** | International | Profitability-focused MSPs in non-competing groups | [Visit](https://www.msp-ignite.com/) |
+| **The Network Group** | UK | UK MSPs & IT channel businesses | [Visit](https://www.nbg.co.uk/) |
 
 ***
 
