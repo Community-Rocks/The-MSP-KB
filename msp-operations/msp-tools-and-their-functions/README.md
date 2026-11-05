@@ -20,3 +20,7 @@ MSPs run on software. This section covers the two platforms at the centre of mos
 {% content-ref url="choosing-the-right-tools.md" %}
 [Choosing the right tools](choosing-the-right-tools.md)
 {% endcontent-ref %}
+
+{% content-ref url="understanding-rmm-vendor-exit-planning.md" %}
+[Understanding RMM Vendor Exit Planning](understanding-rmm-vendor-exit-planning.md)
+{% endcontent-ref %}
