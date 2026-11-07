@@ -24,4 +24,23 @@ The professional services department works closely with the service desk to ensu
 3. **Knowledge sharing**: The professional services department often shares their expertise with the service desk through training sessions, documentation, and regular communication. This enables the service desk to expand their technical knowledge and provide better support to clients.
 4. **Client engagement**: Professional services and service desk teams may collaborate on client engagements, such as onboarding new clients, conducting IT assessments, or developing customized support plans. This collaborative approach ensures that clients receive comprehensive and tailored services that address their unique needs and requirements.
 
+#### Diagnostic Handoffs Between Teams
+
+Moving a ticket to another queue does not by itself transfer useful context or ownership. When the service desk escalates an investigation to professional services, the handoff should preserve enough verified evidence for the receiving engineer to continue the work without repeating the initial diagnosis.
+
+A practical diagnostic handoff records:
+
+* The client, site, user, service, and authoritative endpoint identity
+* Exact event and observation times, including the time zone
+* The current symptom, business impact, and affected scope
+* Comparable measurements, alert context, and known telemetry gaps
+* Checks or changes already performed and the result of each action
+* Confirmed facts separately from hypotheses that still need testing
+* Access, approval, maintenance-window, and stop-condition boundaries
+* One explicit question or decision required from the receiving team
+* Receiver acknowledgement, next owner, and the promised client update
+* Retest evidence, closure criteria, and ownership of any prevention work
+
+The receiving engineer should acknowledge the handoff and confirm the next safe action. This keeps the service desk responsible for customer communication while allowing professional services to own the deeper technical decision. A reusable example is the [MSP Service Desk Diagnostic Handoff Checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/msp-service-desk-diagnostic-handoff-checklist.html), a free vendor-neutral template maintained by Nizlo.
+
 The professional services department within an MSP delivers specialized technical expertise and works closely with the service desk to ensure clients receive the best possible support and solutions. By leveraging the unique strengths of both teams, MSPs can provide a comprehensive range of services that drive value and satisfaction for their clients.
